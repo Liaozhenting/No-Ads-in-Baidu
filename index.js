@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 function noAds() {
-    // 占位大，靠前的广告
+    // 竞价排名的广告
     $('[style="display:block !important;visibility:visible !important"]').hide();
     // 搜索结果里的广告
     setTimeout(function(){
