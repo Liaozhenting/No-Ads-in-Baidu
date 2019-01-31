@@ -21,10 +21,7 @@ function noAds() {
 
 $(document).ajaxComplete(function (event, xhr, settings) {
     console.log('settings', settings);
-    // 搜索结果分页
-    if (/\/s\?ie=utf-8&mod=1&isbd=1&isid=/.test(settings.url)) {
-        noAds();
-    }
+    noAds();
 });
 
 $(function () {
